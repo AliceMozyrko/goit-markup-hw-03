@@ -84,6 +84,7 @@ border-bottom: 1px solid #e7e9fc ;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0
 }
 
 .header-menu-link:hover, .header-menu-link:active, .header-menu-link:focus, .address-mail-link:hover, .address-mail-link:focus {
@@ -107,6 +108,7 @@ border-bottom: 1px solid #e7e9fc ;
   display: flex;
   flex-grow: 1;
     padding: 24px 0;
+    align-items: center;
 }
 
 .header-container{
@@ -168,7 +170,17 @@ background: #404BBF;
 /* -------------------------- */
 
 /* -------------FEATURES------------- */
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
 .features-list{
   display: flex;
   gap: 24px;
@@ -273,7 +285,7 @@ background: #404BBF;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.portfolio-subtitle{
+.container-portfolio-subtitle{
 color: var(--NAVY-BLUE, #2E2F42);
   font-size: 20px;
   font-weight: 500;
