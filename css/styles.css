@@ -113,11 +113,13 @@ border-bottom: 1px solid #e7e9fc ;
 .address-mail-list{
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  align-items: center;
 }
 .header-navigation{
   display: flex;
   flex-grow: 1;
-    padding: 24px 0;
     align-items: center;
 }
 
@@ -131,7 +133,6 @@ border-bottom: 1px solid #e7e9fc ;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
-    padding: 24px 0;
 
 }
 
@@ -145,7 +146,7 @@ border-bottom: 1px solid #e7e9fc ;
 }
 
 
-.hero-title{
+.hero-title {
     color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 56px;
@@ -153,8 +154,10 @@ border-bottom: 1px solid #e7e9fc ;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
+    padding-bottom: 48px;
+    width: 100%;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 .hero-btn {
@@ -172,7 +175,8 @@ border-bottom: 1px solid #e7e9fc ;
         border: none;  
       cursor: pointer;
       display: block;
-      min-width: 169px
+      min-width: 169px;
+      margin: 0 auto;
 }
 .hero-btn:hover, .hero-btn:focus {
 background: #404BBF;
