@@ -90,19 +90,17 @@ border-bottom: 1px solid #e7e9fc ;
 .header-menu-link:hover, .header-menu-link:active, .header-menu-link:focus, .address-mail-link:hover, .address-mail-link:focus {
   color:#404BBF
 }
-.address{
-  font-style: normal;
-}
-
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+}
+
+.address {
+  font-style: normal;
 }
 .address-mail-list{
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-navigation{
   display: flex;
@@ -168,8 +166,6 @@ border-bottom: 1px solid #e7e9fc ;
 background: #404BBF;
 }
 /* -------------------------- */
-
-/* -------------FEATURES------------- */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -181,6 +177,8 @@ background: #404BBF;
   clip-path: inset(100%);
   overflow: hidden;
 }
+/* -------------FEATURES------------- */
+
 .features-list{
   display: flex;
   gap: 24px;
