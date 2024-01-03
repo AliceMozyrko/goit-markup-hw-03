@@ -61,8 +61,7 @@ border-bottom: 1px solid #e7e9fc ;
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  margin-right: 76px
-    padding: 24px 0;
+  margin-right: 76px;
 }
 
 
@@ -96,19 +95,22 @@ border-bottom: 1px solid #e7e9fc ;
 
 .header-menu-list {
   display: flex;
+
   gap: 40px;
   padding: 24px 0;
+    align-items: center;
 }
 .address-mail-list{
   display: flex;
+align-items: center;
   gap: 40px;
-    align-items: center;
-      padding: 24px 0;
+  padding: 24px 0;
 }
 .header-navigation{
   display: flex;
   flex-grow: 1;
   align-items: center;
+    padding: 24px 0;
 }
 
 .header-container{
@@ -256,7 +258,7 @@ background: #404BBF;
 
 
 /* -------------PORTFOLIO------------- */
-.portfolio-title {
+.container-portfolio-title {
   color: var(--NAVY-BLUE, #2E2F42);
   text-align: center;
   font-size: 36px;
@@ -267,13 +269,13 @@ background: #404BBF;
   padding-top: 120px;
     margin-bottom: 72px;
 }
-.portfolio-list{
+.container-portfolio-list{
   display: flex;
     flex-wrap: wrap;
   column-gap: 24px;
   row-gap:48px ;
 }
-.portfolio-item{
+.container-portfolio-item{
     background: var(--WHITE, #FFF);
     width: calc((100% - 24px*2) /3);
 }
@@ -282,7 +284,6 @@ background: #404BBF;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .portfolio-subtitle{
 color: var(--NAVY-BLUE, #2E2F42);
@@ -290,10 +291,10 @@ color: var(--NAVY-BLUE, #2E2F42);
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
-.portfolio-txt{
+.container-portfolio-txt{
   color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
