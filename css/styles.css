@@ -37,6 +37,7 @@ button {
   cursor: pointer;
 }
 .visually-hidden {
+    display: none;
   position: absolute;
   width: 1px;
   height: 1px;
@@ -46,7 +47,6 @@ button {
   white-space: nowrap;
   clip-path: inset(100%);
   overflow: hidden;
-  display: none;
 }
 
 .container {
