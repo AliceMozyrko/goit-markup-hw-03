@@ -61,6 +61,8 @@ border-bottom: 1px solid #e7e9fc ;
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  margin-right: 76px
+    padding: 24px 0;
 }
 
 
@@ -73,6 +75,7 @@ border-bottom: 1px solid #e7e9fc ;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -199,8 +202,8 @@ background: #404BBF;
 }
 .team-item{
   border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  background-color: #FFFFFF
+      box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-list{
   display: flex;
@@ -216,8 +219,9 @@ background: #404BBF;
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-.team-item{
-  background-color: #FFFFFF
+.name-place-team{
+  padding: 32px 0;
+
 }
 .workers{
   color: var(--NAVY-BLUE, #2E2F42);
@@ -226,8 +230,8 @@ background: #404BBF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 .place{
     color: var(--SLATE, #434455);
@@ -259,12 +263,14 @@ background: #404BBF;
   row-gap:48px ;
 }
 .portfolio-item{
-  border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
     width: calc((100% - 24px*2) /3);
-        padding: 16px;
 }
 
+.name-category-portfolio{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
 .portfolio-subtitle{
 color: var(--NAVY-BLUE, #2E2F42);
   font-size: 20px;
