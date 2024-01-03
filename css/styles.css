@@ -46,6 +46,7 @@ button {
   white-space: nowrap;
   clip-path: inset(100%);
   overflow: hidden;
+  display: none;
 }
 
 .container {
