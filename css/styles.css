@@ -258,6 +258,10 @@ background: #404BBF;
 
 
 /* -------------PORTFOLIO------------- */
+.portfolio{
+  padding-top: 120px;
+    padding-bottom: 120px;
+}
 .portfolio-title {
   color: var(--NAVY-BLUE, #2E2F42);
   text-align: center;
@@ -267,7 +271,7 @@ background: #404BBF;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-top: 120px;
-    margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-list{
   display: flex;
