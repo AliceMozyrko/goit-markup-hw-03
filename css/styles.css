@@ -95,21 +95,17 @@ border-bottom: 1px solid #e7e9fc ;
 
 .header-menu-list {
   display: flex;
-
   gap: 40px;
   padding: 24px 0;
-    align-items: center;
 }
 .address-mail-list{
   display: flex;
-align-items: center;
   gap: 40px;
   padding: 24px 0;
 }
 .header-navigation{
   display: flex;
   flex-grow: 1;
-  align-items: center;
     padding: 24px 0;
 }
 
@@ -123,6 +119,8 @@ align-items: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+    padding: 24px 0;
+
 }
 
 /* -------------------------- */
@@ -170,17 +168,7 @@ background: #404BBF;
 /* -------------------------- */
 
 /* -------------FEATURES------------- */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  overflow: hidden;
-}
+
 .features-list{
   display: flex;
   gap: 24px;
@@ -291,7 +279,6 @@ color: var(--NAVY-BLUE, #2E2F42);
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .container-portfolio-txt{
