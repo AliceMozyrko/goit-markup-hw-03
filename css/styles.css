@@ -322,6 +322,7 @@ color: var(--IRIS, #4D5AE5);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
+  margin-bottom: 16px;
   }
 
 .footer-logo-white {
@@ -341,5 +342,4 @@ color: var(--IRIS, #4D5AE5);
   letter-spacing: 0.02em;
     width: 100%;
     max-width: 264px;
-    margin-top: 17.5px;
 }
